@@ -1,0 +1,51 @@
+@font-face { font-family: font11; src: url('font11.otf'); }
+@font-face { font-family: Metropolis Light; src: url('Metropolis-Light.otf'); }
+
+#title{
+	margin: 0;
+	color: #6e6aee;
+	text-shadow: 1px 1px 1px #605cd1,
+				  1px 2px 1px #605cd1,
+				   1px 3px 1px #605cd1,
+				    1px 4px 1px #5450b6, 
+				     1px 5px 1px #5450b6, 
+				      1px 6px 1px #5450b6,  
+				       1px 7px 1px #49469f, 
+				        1px 8px 1px #49469f, 
+				         1px 9px 1px #49469f,  
+				       1px 18px 6px #373578,
+				       1px 22px 10px #373578,
+				       1px 25px 35px #373578,
+				       1px 30px 60px #373578;
+	
+}
+
+#button1{
+	padding:15px 30px;
+	border-radius: 10px;
+	border-style: solid;
+	font-size: 2vmin;
+	font-family: Metropolis Light;
+	border-style: solid;
+	width: 15%;
+	min-width: 150px;
+	border-color: #5f57b7;
+	color: rgb(249, 244, 244);
+	cursor: pointer; 
+	transition-duration: 0.2s;
+	float: top;
+	background-color: rgb(56, 52, 113);
+	text-align: center;
+
+}
+#button1:hover {
+	background-color: #7e58d8;
+	color: rgb(255, 255, 255);
+}
+body{
+	background-image: url(planets.jpg); 
+	margin: 0;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
