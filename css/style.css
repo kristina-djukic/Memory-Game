@@ -1,0 +1,136 @@
+
+body {
+  background-image: url(stars.jpg);
+}
+
+.head {
+  max-width: 20px;
+  margin: auto;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  font-family: "Orbitron", sans-serif;
+  color: #333;
+}
+
+#container {
+  position: relative; top: 50px;
+  width: 71vmin;
+  height: 71vmin;
+  display: grid;
+  grid-template-columns: 16vmin 16vmin 16vmin 16vmin ;
+  grid-template-rows: 16vmin 16vmin 16vmin 16vmin ;
+  column-gap: 2vmin;
+  row-gap: 2vmin;
+  margin: auto;
+  padding: 10px;
+  background-color: #4456bfc5;
+  border-radius: 5px;
+    border-style: solid;
+    border-color: #2b2d6b;
+    border-width: 5px;
+    box-shadow: 1px 1px 1px #2b2d6b,
+				  1px 2px 1px #2b2d6b,
+				   1px 3px 1px #2b2d6b,
+				    1px 4px 1px #242558, 
+				     1px 5px 1px #242558, 
+				      1px 6px 1px #242558,  
+				       1px 7px 1px #161736, 
+				        1px 8px 1px #161736, 
+				         1px 9px 1px #161736,  
+				       1px 18px 6px #161736,
+				       1px 22px 10px #101128,
+				       1px 25px 35px #101128,
+				       1px 30px 60px #101128;
+}
+
+.face_up {
+  position: absolute;
+  width: 16vmin;
+  height: 16vmin;
+  display: flex;
+  align-items: center;
+  transform: rotateY(90deg);
+  justify-content: center;
+  background-color: #515198; 
+  border: 4px solid  #2F2F60; 
+  border-radius: 5px; 
+  border-radius: 14px;
+}
+
+.face_down {
+  background-color: #2F2F60; 
+  border: 4px solid #515198; 
+  border-radius: 5px; 
+  width: 16vmin;
+  height: 16vmin;
+  background-image: url(star.png);
+  background-position: 50%;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.flip {
+  transform: rotateY(0deg);
+}
+.match {
+  transform: rotateY(0deg);
+}
+
+.show {
+  transform: rotateY(0deg);
+}
+
+#score{
+  width: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #2F2F60 ;
+  text-align: center;
+  border: 3px solid #515198;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+#first{
+  cursor: pointer;
+  width: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #2F2F60 ;
+  text-align: center;
+  border: 3px solid #515198;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+#second{
+  cursor: pointer;
+  width: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #2F2F60 ;
+  text-align: center;
+  border: 3px solid #515198;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-left: 40%
+}
+
+.display{
+  display: inline-block;
+  width: 600px;
+  height: 200px;
+  margin-top: 6%;
+}
